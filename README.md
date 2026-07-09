@@ -7,6 +7,7 @@ It is primarily configured for building the Xiaomi AX3000T router firmware, prov
 
 本项目利用 GitHub Actions 编译 [Hanwckf's ImmortalWrt](https://github.com/hanwckf/immortalwrt-mt798x) 固件及相应的 [U-Boot](https://github.com/hanwckf/bl-mt798x)。 
 其主要配置用于构建小米 AX3000T 路由器固件，提供便捷的固件构建过程。
+加入了 Passwall 插件，移除了一些不需要的依赖。
 
 ## Default Configuration  
 
