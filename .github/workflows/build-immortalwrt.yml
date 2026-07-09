@@ -123,6 +123,7 @@ jobs:
       with:
         name: ImmortalWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin
+        retention-days: 7  # <-- 加上这一行，7天后自动删除，只留近期的
 
     - name: Organize files
       id: organize
